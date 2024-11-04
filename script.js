@@ -8,7 +8,7 @@ function mostrarOcultarMenu(){
         document.getElementById("nav").classList ="responsive";
         menuVisible = true;
     }
-}
+} 
 
 function seleccionar(){
     //oculto el menu una vez que selecciono una opcion
