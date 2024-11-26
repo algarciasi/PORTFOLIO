@@ -350,11 +350,11 @@ html{
     100%{width: 75%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .sprob{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s sprob forwards;
 }
-@keyframes proyect {
+@keyframes sprob {
     0%{width: 0%;}
     100%{width: 90%;}
 }
