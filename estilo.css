@@ -269,11 +269,11 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .back{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s back forwards;
 }
-@keyframes javascript {
+@keyframes back {
     0%{width: 0%;}
     100%{width: 75%;}
 }
@@ -284,7 +284,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .photoshop{
@@ -293,52 +293,43 @@ html{
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .lenguajes{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s lenguajes forwards;
 }
-@keyframes wordpress {
+@keyframes lenguajes {
     0%{width: 0%;}
     100%{width: 80%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .herramientas{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s herramientas forwards;
 }
-@keyframes drupal {
+@keyframes herramientas {
     0%{width: 0%;}
     100%{width: 70%;}
 }
 
-.skills .skill .comunicacion{
+.skills .skill .tequipo{
     width: 0%;
-    animation: 2s comunicacion forwards;
+    animation: 2s tequipo forwards;
 }
-@keyframes comunicacion {
+@keyframes tequipo {
     0%{width: 0%;}
     100%{width: 85%;}
 }
 
-.skills .skill .trabajo{
+.skills .skill .iniciativa{
     width: 0%;
-    animation: 2s trabajo forwards;
+    animation: 2s iniciativa forwards;
 }
-@keyframes trabajo {
+@keyframes iniciativa {
     0%{width: 0%;}
     100%{width: 80%;}
-}
-
-.skills .skill .creatividad{
-    width: 0%;
-    animation: 2s creatividad forwards;
-}
-@keyframes creatividad {
-    0%{width: 0%;}
-    100%{width: 100%;}
 }
 
 .skills .skill .dedicacion{
@@ -346,6 +337,15 @@ html{
     animation: 2s dedicacion forwards;
 }
 @keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .decision{
+    width: 0%;
+    animation: 2s decision forwards;
+}
+@keyframes decision {
     0%{width: 0%;}
     100%{width: 75%;}
 }
@@ -356,7 +356,7 @@ html{
 }
 @keyframes sprob {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 85%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
