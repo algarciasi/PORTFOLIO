@@ -332,11 +332,11 @@ html{
     100%{width: 80%;}
 }
 
-.skills .skill .dedicacion{
+.skills .skill .dedica{
     width: 0%;
     animation: 2s dedicacion forwards;
 }
-@keyframes dedicacion {
+@keyframes dedica {
     0%{width: 0%;}
     100%{width: 100%;}
 }
