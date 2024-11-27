@@ -334,7 +334,7 @@ html{
 
 .skills .skill .dedica{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s dedica forwards;
 }
 @keyframes dedica {
     0%{width: 0%;}
